@@ -16,3 +16,36 @@ This is the interest rate at which banks lend money to each other overnight. It 
 
 5. Consumer Confidence Index (CCI) ('UMCSENT'):
 Measures the degree of optimism that consumers feel about the overall state of the economy and their personal financial situation. High consumer confidence typically leads to more spending, which drives economic growth.
+
+This project will compare these 5 U.S. Economic Metrics with the top 10 stock exchanges in the world by market capitalization. We retrieve the data from Yahoo Finance, which can be seen here:
+
+1. **New York Stock Exchange (NYSE)** – USA  
+   - Yahoo Finance Ticker: `^NYA`
+
+2. **Nasdaq** – USA  
+   - Yahoo Finance Ticker: `^IXIC`
+
+3. **Japan Exchange Group (Tokyo Stock Exchange)** – Japan  
+   - Yahoo Finance Ticker: `^N225`
+
+4. **Shanghai Stock Exchange** – China  
+   - Yahoo Finance Ticker: `000001.SS`
+
+5. **National Stock Exchange (NSE) of India** – India  
+   - Yahoo Finance Ticker: `^NSEI`
+
+6. **Euronext** – Europe (France, Netherlands, Belgium, Portugal)  
+   - Yahoo Finance Ticker: `^N100`
+
+7. **Hong Kong Exchanges and Clearing** – Hong Kong  
+   - Yahoo Finance Ticker: `^HSI`
+
+8. **Shenzhen Stock Exchange** – China  
+   - Yahoo Finance Ticker: `399001.SZ`
+
+9. **Toronto Stock Exchange (TMX Group)** – Canada  
+   - Yahoo Finance Ticker: `^GSPTSE`
+
+10. **Korea Exchange** – South Korea  
+    - Yahoo Finance Ticker: `^KS11`
+
