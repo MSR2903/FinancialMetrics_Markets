@@ -1,5 +1,14 @@
 # Financial Metrics and Global Stock Market Analysis
-This project explores how U.S. economic metrics (such as GDP, inflation rate, and unemployment rate) impact the performance of major world stock exchanges. Using Python and the FRED API, we retrieve economic data and compare it with stock price data obtained via the Yahoo Finance API.
+This project explores how U.S. economic metrics (such as GDP, unemployment rate, consumer price index, federal funds rate, and consumer confidence index) impact the performance of major world stock exchanges. Using Python and the FRED API, we retrieve economic data and compare it with stock price data obtained via the Yahoo Finance API.
+
+## Hypothesis and Research Questions
+Hypotheses:
+1. The performance of U.S. stock exchanges is more sensitive to U.S. economic metrics than international stock exchanges.
+2. Stock exchanges in developed countries show a stronger correlation with U.S. economic metrics compared to those in developing countries
+
+Research Questions:
+1. How do U.S. economic metrics influence the performance of U.S. stock exchanges compared to international stock exchanges?
+2. Do stock exchanges in developed countries show a stronger correlation with U.S. economic metrics than those in developing countries?
 
 Data that retreived from FRED API:
 1. Gross Domestic Product (GDP) ('GDP'):
@@ -17,35 +26,43 @@ This is the interest rate at which banks lend money to each other overnight. It 
 5. Consumer Confidence Index (CCI) ('UMCSENT'):
 Measures the degree of optimism that consumers feel about the overall state of the economy and their personal financial situation. High consumer confidence typically leads to more spending, which drives economic growth.
 
-This project will compare these 5 U.S. Economic Metrics with the top 10 stock exchanges in the world by market capitalization. We retrieve the data from Yahoo Finance, which can be seen here:
+This project will compare these 5 U.S. Economic Metrics with the top stock exchanges in the world by market capitalization. We want to compare the impact of U.S. Economics for both developed countries and developing countries.
 
+We retrieve the data from Yahoo Finance, which can be seen here:
+
+Developed Countries:
 1. **New York Stock Exchange (NYSE)** – USA  
    - Yahoo Finance Ticker: `^NYA`
 
-2. **Nasdaq** – USA  
-   - Yahoo Finance Ticker: `^IXIC`
-
-3. **Japan Exchange Group (Tokyo Stock Exchange)** – Japan  
+2. **Japan Exchange Group (Tokyo Stock Exchange)** – Japan  
    - Yahoo Finance Ticker: `^N225`
 
-4. **Shanghai Stock Exchange** – China  
-   - Yahoo Finance Ticker: `000001.SS`
-
-5. **National Stock Exchange (NSE) of India** – India  
-   - Yahoo Finance Ticker: `^NSEI`
-
-6. **Euronext** – Europe (France, Netherlands, Belgium, Portugal)  
+3. **Euronext** – Europe (France, Netherlands, Belgium, Portugal)  
    - Yahoo Finance Ticker: `^N100`
 
-7. **Hong Kong Exchanges and Clearing** – Hong Kong  
-   - Yahoo Finance Ticker: `^HSI`
-
-8. **Shenzhen Stock Exchange** – China  
-   - Yahoo Finance Ticker: `399001.SZ`
-
-9. **Toronto Stock Exchange (TMX Group)** – Canada  
+4. **Toronto Stock Exchange (TMX Group)** – Canada  
    - Yahoo Finance Ticker: `^GSPTSE`
 
-10. **Korea Exchange** – South Korea  
+5. **Korea Exchange** – South Korea  
     - Yahoo Finance Ticker: `^KS11`
+
+Developing Countries:
+1. **Shanghai Stock Exchange** – China  
+   - Yahoo Finance Ticker: `000001.SS`
+
+2. **National Stock Exchange (NSE) of India** – India  
+   - Yahoo Finance Ticker: `^NSEI`
+
+3. **Saudi Stock Exchange** – Saudi Arabia
+   - Yahoo Finance Ticker: `TASI`
+
+4. **Johannesburg Stock Exchange** – South Africa
+   - Yahoo Finance Ticker: `^JTOPI`
+
+5. **Brazil Stock Exchange** – Brazil
+   - Yahoo Finance Ticker: `^BVSP`
+
+
+
+
 
