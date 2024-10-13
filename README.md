@@ -54,10 +54,10 @@ Developing Countries:
    - Yahoo Finance Ticker: `^NSEI`
 
 3. **Saudi Stock Exchange** – Saudi Arabia
-   - Yahoo Finance Ticker: `TASI`
+   - Yahoo Finance Ticker: `TASI.SR`
 
 4. **Johannesburg Stock Exchange** – South Africa
-   - Yahoo Finance Ticker: `^JTOPI`
+   - Yahoo Finance Ticker: `JSE.JO`
 
 5. **Brazil Stock Exchange** – Brazil
    - Yahoo Finance Ticker: `^BVSP`
