@@ -1,9 +1,6 @@
 # Financial Metrics and Global Stock Market Analysis
 This project explores how U.S. economic metrics (such as GDP, unemployment rate, consumer price index, federal funds rate, and consumer confidence index) impact the performance of major world stock exchanges. Using Python and the FRED API, we retrieve economic data and compare it with stock price data obtained via the Yahoo Finance API.
 
-![image](https://github.com/user-attachments/assets/b8f74f34-1e81-42bd-802a-c7b23d1b3d75)
-![image](https://github.com/user-attachments/assets/e1e3e5a2-9290-4da9-a53f-a0791b295bb7)
-
 ## Hypothesis and Research Questions
 Hypotheses:
 1. The NYSE (U.S Stock Exchange) have stronger correlation or more senstive with the U.S Economic metrics than the International exchanges with the U.S Economic metrics.
