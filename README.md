@@ -3,10 +3,10 @@ This project explores how U.S. economic metrics (such as GDP and Consumer Price 
 
 ## Hypothesis and Research Questions
 Hypotheses:
-1. The NYSE (U.S Stock Exchange) have stronger correlation or more senstive with the U.S Economic metrics than the International exchanges with the U.S Economic metrics.
-2. Stock exchanges in developed countries show a stronger correlation or more sensitve to the U.S. economic metrics compared to those in developing countries.
+1. The NYSE (U.S Stock Exchange) have stronger correlation or more senstive with the U.S GDP than the International exchanges with the U.S Economic metrics.
+2. Stock exchanges in developed countries show a stronger correlation or more sensitve to the U.S. GDP compared to those in developing countries.
 3. The performance (NYSE) of U.S. stock exchanges is more sensitive to the U.S. CPI than international stock exchanges.
-4. Stock exchanges in developed countries show a stronger correlation with the U.S. CPI metrics compared to those in developing countries
+4. Stock exchanges in developed countries show a stronger correlation with the U.S. CPI metrics compared to those in developing countries.
 
 Research Questions:
 1. How does U.S. economic metrics influence the performance of U.S. stock exchanges compared to international stock exchanges?
